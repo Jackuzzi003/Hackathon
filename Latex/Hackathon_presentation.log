@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2017.3.9)  22 MAR 2017 21:46
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2017.3.9)  22 MAR 2017 22:10
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1424,9 +1424,15 @@ Package mdframed Info: mdframed detected package amsthm
 (mdframed)              on input line 123.
 Package mdframed Info: mdframed inside a box 
  mdframed uses option nobreak mdframed on input line 123.
+
+<youbot.png, id=390, 415.5525pt x 369.38pt>
+File: youbot.png Graphic file (type png)
+ <use youbot.png>
+Package pdftex.def Info: youbot.png used on input line 123.
+(pdftex.def)             Requested size: 62.33018pt x 55.4046pt.
  [11
 
-]
+ <./youbot.png>]
 Package mdframed Info: mdframed detected package amsthm 
  changed the theorem header of amsthm
 (mdframed)              on input line 123.
@@ -1437,6 +1443,10 @@ Package mdframed Info: mdframed detected package amsthm
 (mdframed)              on input line 123.
 Package mdframed Info: mdframed inside a box 
  mdframed uses option nobreak mdframed on input line 123.
+File: youbot.png Graphic file (type png)
+ <use youbot.png>
+Package pdftex.def Info: youbot.png used on input line 123.
+(pdftex.def)             Requested size: 62.33018pt x 55.4046pt.
  [12
 
 ]
@@ -1450,6 +1460,10 @@ Package mdframed Info: mdframed detected package amsthm
 (mdframed)              on input line 123.
 Package mdframed Info: mdframed inside a box 
  mdframed uses option nobreak mdframed on input line 123.
+File: youbot.png Graphic file (type png)
+ <use youbot.png>
+Package pdftex.def Info: youbot.png used on input line 123.
+(pdftex.def)             Requested size: 62.33018pt x 55.4046pt.
  [13
 
 ]
@@ -1463,22 +1477,63 @@ Package mdframed Info: mdframed detected package amsthm
 (mdframed)              on input line 123.
 Package mdframed Info: mdframed inside a box 
  mdframed uses option nobreak mdframed on input line 123.
+File: youbot.png Graphic file (type png)
+ <use youbot.png>
+Package pdftex.def Info: youbot.png used on input line 123.
+(pdftex.def)             Requested size: 62.33018pt x 55.4046pt.
  [14
 
-] [15
+]
+File: youbot.png Graphic file (type png)
 
-] [16
-
-] [17
-
-] [18
+<use youbot.png>
+Package pdftex.def Info: youbot.png used on input line 142.
+(pdftex.def)             Requested size: 62.33018pt x 55.4046pt.
+ [15
 
 ]
-[19
+File: youbot.png Graphic file (type png)
+ <use youbot.png>
+Package pdftex.def Info: youbot.png used on input line 142.
+(pdftex.def)             Requested size: 62.33018pt x 55.4046pt.
+ [16
 
-] [20
+]
+File: youbot.png Graphic file (type png)
+ <use youbot.png>
+Package pdftex.def Info: youbot.png used on input line 142.
+(pdftex.def)             Requested size: 62.33018pt x 55.4046pt.
+ [17
 
-] [21
+]
+File: youbot.png Graphic file (type png)
+
+<use youbot.png>
+Package pdftex.def Info: youbot.png used on input line 142.
+(pdftex.def)             Requested size: 62.33018pt x 55.4046pt.
+ [18
+
+]
+File: youbot.png Graphic file (type png)
+ <use youbot.png>
+Package pdftex.def Info: youbot.png used on input line 142.
+(pdftex.def)             Requested size: 62.33018pt x 55.4046pt.
+ [19
+
+]
+File: youbot.png Graphic file (type png)
+ <use youbot.png>
+Package pdftex.def Info: youbot.png used on input line 142.
+(pdftex.def)             Requested size: 62.33018pt x 55.4046pt.
+ [20
+
+]
+File: youbot.png Graphic file (type png)
+
+<use youbot.png>
+Package pdftex.def Info: youbot.png used on input line 142.
+(pdftex.def)             Requested size: 62.33018pt x 55.4046pt.
+ [21
 
 ] [22
 
@@ -1488,7 +1543,8 @@ Package mdframed Info: mdframed inside a box
 
 ] (./Hackathon_presentation.toc) [25
 
-] [26
+]
+[26
 
 ]
 \tf@nav=\write6
@@ -1507,11 +1563,11 @@ Package movie15 Warning: @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 (movie15)                @@ superseded by `media9'.           @@
 (movie15)                @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 171.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 171.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 173.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 173.
 (./Hackathon_presentation.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 171.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 171.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 173.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 173.
 Package rerunfilecheck Info: File `Hackathon_presentation.out' has not changed.
 
 (rerunfilecheck)             Checksum: 6A2CCFA942AA93CA35D8D4ECE24CB4E6;291.
@@ -1523,13 +1579,13 @@ LaTeX Font Warning: Size substitutions with differences
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 171.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 173.
  ) 
 Here is how much of TeX's memory you used:
- 27245 strings out of 495028
- 534439 string characters out of 6181498
+ 27251 strings out of 495028
+ 534512 string characters out of 6181498
  660723 words of memory out of 5000000
- 29818 multiletter control sequences out of 15000+600000
+ 29822 multiletter control sequences out of 15000+600000
  7276 words of font info for 26 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  50i,16n,75p,10427b,998s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1540,10 +1596,10 @@ ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texlive/tex
 mf-dist/fonts/type1/public/amsfonts/cm/cmss9.pfb></usr/share/texlive/texmf-dist
 /fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/share/texlive/texmf-dist/fon
 ts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on Hackathon_presentation.pdf (26 pages, 123114 bytes).
+Output written on Hackathon_presentation.pdf (26 pages, 276755 bytes).
 PDF statistics:
- 962 PDF objects out of 1000 (max. 8388607)
- 902 compressed objects within 10 object streams
+ 965 PDF objects out of 1000 (max. 8388607)
+ 903 compressed objects within 10 object streams
  62 named destinations out of 1000 (max. 500000)
- 109 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 114 words of extra memory for PDF output out of 10000 (max. 10000000)
 
