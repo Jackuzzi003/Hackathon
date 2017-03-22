@@ -4,22 +4,21 @@ from std_msgs.msg import String
 from geometry_msgs.msg import Twist
 
 def position():
-        print('please enter start or stop')
-        y = raw_input()
+        y = raw_input('please enter start or stop: ')
         rospy.init_node('ourrobot')
         pub = rospy.Publisher('/cmd_vel',Twist,queue_size = 10)
+        #sub = rospy.Subscriber("/odom", )
         twist = Twist()
         if y == 'start':
-            print('please enter left or right')
-            x = raw_input()
-            
+            x = raw_input('please enter left or right: ')
+            z = raw_input('please enter velocity: ')
             
             if x == 'left':
-                twist.linear.y= 0.5
+                twist.linear.y= float(z)
                 print('left')
                 
             elif x == 'right':
-                twist.linear.y = -0.5
+                twist.linear.y = -float(z)
                 print('right')
                 
             pub.publish(twist)
