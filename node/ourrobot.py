@@ -2,12 +2,19 @@
 import rospy
 from std_msgs.msg import String
 from geometry_msgs.msg import Twist
+from Odometry_msgs.msg import Odometry
+
+
+
+def call(msg):
+    print("hi")
+    return msg.pose.pose.position.y
 
 def position():
         y = raw_input('please enter start or stop: ')
         rospy.init_node('ourrobot')
         pub = rospy.Publisher('/cmd_vel',Twist,queue_size = 10)
-        #sub = rospy.Subscriber("/odom", )
+        rospy.Subscriber("/odom", Odometry, call)
         twist = Twist()
         if y == 'start':
             x = raw_input('please enter left or right: ')
@@ -30,7 +37,8 @@ def position():
     
 if __name__ == '__main__':
     try:
-        while not rospy.is_shutdown():
+        
             position()  
+            rospy.spin()
     except rospy.ROSInterruptException:
         pass 
