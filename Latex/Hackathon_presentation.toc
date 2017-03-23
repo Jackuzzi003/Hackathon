@@ -1,9 +1,9 @@
 \beamer@endinputifotherversion {3.24pt}
 \beamer@sectionintoc {1}{Introduction}{3}{0}{1}
 \beamer@sectionintoc {2}{ROS}{5}{0}{2}
-\beamer@sectionintoc {3}{Hackathon}{10}{0}{3}
-\beamer@subsectionintoc {3}{1}{First task}{11}{0}{3}
-\beamer@subsubsectionintoc {3}{1}{1}{Approach}{22}{0}{3}
-\beamer@subsubsectionintoc {3}{1}{2}{limitations}{23}{0}{3}
-\beamer@subsectionintoc {3}{2}{Second task}{24}{0}{3}
-\beamer@sectionintoc {4}{course}{25}{0}{4}
+\beamer@sectionintoc {3}{Hackathon}{9}{0}{3}
+\beamer@subsectionintoc {3}{1}{First task}{10}{0}{3}
+\beamer@subsubsectionintoc {3}{1}{1}{Approach}{21}{0}{3}
+\beamer@subsubsectionintoc {3}{1}{2}{limitations}{22}{0}{3}
+\beamer@subsectionintoc {3}{2}{Second task}{23}{0}{3}
+\beamer@sectionintoc {4}{course}{24}{0}{4}
