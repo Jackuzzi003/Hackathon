@@ -2,6 +2,7 @@
 import rospy
 from std_msgs.msg import String
 from nav_msgs.msg import Odometry
+from sensor_msgs.msg import LaserScan
 
 def callback(data):
      rospy.loginfo(data)
@@ -14,7 +15,7 @@ def listener():
 # name for our 'listener' node so that multiple listeners can
 # run simultaneously.
      rospy.init_node('listener', anonymous=True)
-     rospy.Subscriber("/odom", Odometry, callback)
+     rospy.Subscriber("/base_scan", LaserScan, callback)
 
 # spin() simply keeps python from exiting until this node is stopped
      rospy.spin()
